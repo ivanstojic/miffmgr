@@ -1,0 +1,4 @@
+#!/bin/bash
+
+# Xephyr :1 +xinerama -screen 1600x600
+Xephyr :1 +xinerama -screen 800x600

@@ -1,0 +1,5 @@
+#!/bin/bash
+
+uxterm &
+xsetroot -solid '#102040'
+

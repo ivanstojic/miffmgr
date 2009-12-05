@@ -1,0 +1,10 @@
+001:51:52.304	Setup Xephyr, fakexinerama, compile own version of tinywm,
+		get acquainted with the tinywm source code and Xlib basics
+000:29:09.792	Xinerama and Xrandr recognition and basic handling
+000:35:21.322	Merge screen info into internal structs, paint desktops in
+		different colours for screen identification
+001:12:03.180	Testing basic Xlib events: grabbing mouse, grabbing keys, etc
+001:02:20.926	Considering writing miffmgr in Common Lisp vs C, XRectangle,
+		Window-Screen intersections, determining screen for Window
+000:35:25.001	Finished screenForWindow
+002:30:44.066	Emacs layouting, sans borders, resize or moving

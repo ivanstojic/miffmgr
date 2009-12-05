@@ -1,0 +1,77 @@
+
+osd.c,19
+void showOSD(3,23
+
+command.c,61
+void handleShowTime(12,132
+void handleKeyPressEvent(18,191
+
+screens.h,127
+} MiffScreen;7,105
+#define EMACS_LAYOUT_FIRST_RIGHT 9,120
+#define EMACS_LAYOUT_FIRST_BELOW 10,155
+} EmacsLayout;20,279
+
+layout_emacs.c,602
+EmacsLayout *emacsLayouts;emacsLayouts7,67
+void emacsLayoutManagerInit(9,99
+void _emacsRecursiveArrange(47,979
+void emacsLayoutManagerArrange(81,1816
+Window *emacsLayoutManagerGetAllWindows(emacsLayoutManagerGetAllWindows101,2271
+int _emacsRecursiveAddWindowToLayout(120,2755
+EmacsLayout *_emacsRecursiveFindFocusedLayout(_emacsRecursiveFindFocusedLayout136,3109
+int _emacsRecursiveAddLayoutAndWindow(152,3515
+void emacsLayoutManagerWindowAdd(155,3611
+int _emacsRecursiveWindowRemove(175,4146
+void emacsLayoutManagerWindowRemove(190,4493
+void emacsLayoutManagerMoveNext(203,4839
+
+tools/Xinerama.c,282
+static int num_screens 32,1687
+    } screen_info[screen_info37,1781
+static void skipComments(39,1807
+static void initFakeXinerama(62,2254
+Bool XineramaQueryExtension 103,3200
+Status XineramaQueryVersion(115,3376
+Bool XineramaIsActive(127,3528
+XineramaQueryScreens(135,3660
+
+miffmgr.c,994
+#define LAYOUT_MANAGER_INIT 20,362
+#define LAYOUT_MANAGER_ARRANGE 21,413
+#define LAYOUT_MANAGER_WINDOW_ADD 22,470
+#define LAYOUT_MANAGER_WINDOW_REMOVE 23,532
+unsigned int BACKGROUNDS[BACKGROUNDS27,603
+unsigned short STATUS_BAR_HEIGHT 28,666
+Display *dpy;dpy31,730
+Window root;32,744
+int xineramaEventBase,36,782
+int xineramaEventBase, xineramaErrorBase;36,782
+Bool hasXinerama;37,824
+XineramaScreenInfo *xineramaScreens;xineramaScreens39,843
+int xineramaScreenCount;40,880
+int xrandrEventBase,44,928
+int xrandrEventBase, xrandrErrorBase;44,928
+Bool hasXrandr;45,966
+int miffScreenCount;50,1110
+MiffScreen *miffScreens;miffScreens51,1131
+void checkAndInitXinerama(55,1179
+void checkAndInitXrandr(72,1528
+void initMiffScreens(81,1767
+float presenceWeight(119,2755
+MiffScreen *screenForWindow(screenForWindow144,3296
+int screenForPointer(171,3768
+int virtualForScreen(176,3841
+Window focusedWindow(180,3886
+void enumerateExistingWindows(190,4015
+int main(222,4916
+
+layout_emacs.h,0
+
+includes.h,0
+
+osd.h,0
+
+command.h,0
+
+miffmgr.h,0
